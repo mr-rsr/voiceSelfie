@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            Voice Selfie App
+        </title>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js">   </script>
+    </head>
+    <body>
+        
+        <a href="" id="link" download="selfie.png"></a>
+       
+        <ul class="head">
+            <li><P>Voice Selfie App</P></li>
+            <li><img src="/images/Screenshot_2022-09-14-12-00-07-63_680d03679600f7af0b4c700c6b270fe7.jpg" alt="avatar"></li>
+            
+        </ul>
+        <hr>
+        <ul class="bb">
+            <li style="color:red;"><p>Please press allow as soon as popup comes. After you give a voice command</p></li>
+            <li><h3	>Say "Take my selfie"</h3></li>
+            <li style="margin-bottom: 20;">Your voice output </li>
+            <li> <textarea type="text" id="fname" name="fname" readonly="true">
+                </textarea></li>	
+          
+            <li>
+                <button onclick="start()">Start</button>
+            </li>
+            <li style="margin-bottom: 30;font-size:15px;">
+                <p>Press the start button</p>
+            </li>
+            <li style="margin-bottom: 40px;">
+                <p>Your Webcam</p>
+            </li>
+            <li id="Container" ></li>
+            <li id="result">    </li>
+        </ul>
+        <script src="index.js"></script> 
+  
+    </body>
+</html>
